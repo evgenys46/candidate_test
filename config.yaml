@@ -1,0 +1,7 @@
+services:
+  vote-app:
+    replicas: 3
+    image: myrepo/vote-app:latest
+  db:
+    storage: 10Gi
+    image: postgres:16
